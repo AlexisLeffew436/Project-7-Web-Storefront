@@ -1,9 +1,10 @@
 html {
-  background: url(img/dock.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: 200px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #3078b4, #42dff4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3078b4, #42dff4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3078b4, #42dff4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3078b4, #42dff4); /* Standard syntax (must be last) */
   padding-left: 4em;
   padding-right: 4em;
   padding-top: 1em;
