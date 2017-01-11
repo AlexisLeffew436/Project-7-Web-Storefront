@@ -23,10 +23,19 @@ header {
   padding-top: 1em;
 }
 
+hr {
+  width: 70em;
+  opacity: 0.2;
+  margin-top: 3em;
+}
+
 #Logo {
   float: right;
+  position: relative;
   margin-top: -1em;
-  width: 32em;
+  margin-right: 6em;
+  width: 35em;
+  height: 14em;
 }
 
 #content {
@@ -40,6 +49,8 @@ header {
 #iphone {
   height: 150px;
   width: 250px;
+  margin-top: 25px;
+  margin-left: 2em;
 }
 
 footer {
