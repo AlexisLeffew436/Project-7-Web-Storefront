@@ -1,0 +1,60 @@
+html {
+  background: url(img/dock.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+
+hr {
+  width: 70em;
+  opacity: 0.2;
+  margin-top: 3em;
+}
+
+#Logo {
+  float: right;
+  position: relative;
+  margin-top: -1em;
+  margin-right: 6em;
+  width: 35em;
+  height: 14em;
+}
+
+#content {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  position: relative;
+  height: 880px;
+}
+
+#iphone {
+  height: 150px;
+  width: 250px;
+  margin-top: 25px;
+  margin-left: 2em;
+}
+
+footer {
+  color: #FFFFFF;
+  height: 10em;
+  background-color: #001a33;
+}
